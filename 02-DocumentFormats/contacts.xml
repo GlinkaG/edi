@@ -22,4 +22,14 @@
 		<phone type="work">6660611</phone>
 		<notes>my best friend</notes>
 	</contact>
+	<contact>
+		<name>Grzegorz</name>
+		<name>Krzysztof</name>
+		<surname>Glinka</surname>
+		<email type="personal">grzegorzg199@gmail.com</email>
+		<email type="buisness">s215726.student.uek.krakow.pl</email>
+		<phone type="home">123456789</phone>
+		<phone type="work">123456789</phone>
+		<notes>Notatka</notes>
+	</contact>
 </contacts>

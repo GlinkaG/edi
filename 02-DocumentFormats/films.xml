@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Filmy>
+    <film>
+        <tytul>El Camino</tytul>
+        <gatunek>Dramat, Sensacyjny</gatunek>
+        <rezyser>Vince Gilligan</rezyser>
+        <ocena>11/10</ocena>
+        <aktorzy>Aaron Paul, Bryan Cranston</aktorzy>
+    </film>
+
+    <film>
+        <tytul>Kler</tytul>
+        <gatunek>Komedia</gatunek>
+        <rezyser>Wojciech Smarzowski</rezyser>
+        <ocena>7.1</ocena>
+        <aktorzy>Jacek Braciak, Robert Więckiewicz</aktorzy>
+    </film>
+
+    <film>
+        <tytul>Shutter Island</tytul>
+        <gatunek>Thriller, Dramat</gatunek>
+        <rezyser>Martin Scorsese</rezyser>
+        <ocena>8.2</ocena>
+        <aktorzy>Leonardo di Caprio, Ben Kingsley</aktorzy>
+    </film>
+
+    <film>
+        <tytul></tytul>
+        <gatunek></gatunek>
+        <rezyser></rezyser>
+        <ocena></ocena>
+        <aktorzy></aktorzy>
+    </film>
+
+    <film>
+        <tytul></tytul>
+        <gatunek></gatunek>
+        <rezyser></rezyser>
+        <ocena></ocena>
+        <aktorzy></aktorzy>
+    </film>
+</Filmy>
