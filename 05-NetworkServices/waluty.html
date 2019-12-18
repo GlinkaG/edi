@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="guzik" onclick="test()">XD</button>
+    <div id="GBP"></div>
+    
+
+
+
+
+    <script>
+        function test()
+        {
+                var method = 'GET';
+				var URL = 'http://api.nbp.pl/api/exchangerates/rates/A/GBP/';
+				var xhr = new XMLHttpRequest();
+				xhr.onreadystatechange = function(){display(this);};
+				xhr.open(method, URL);
+				xhr.send();
+        }
+
+        function display(r)
+        {
+            if( r.readyState==4 && r.status==200)
+				{
+					var x = JSON.parse(r.response);
+					console.log(x);
+
+				}
+        }
+    
+    
+    
+    </script>
+</body>
+</html>
